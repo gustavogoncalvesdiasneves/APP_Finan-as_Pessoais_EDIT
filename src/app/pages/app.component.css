@@ -1,0 +1,45 @@
+p {
+  font-family: Lato;
+}
+
+ion-header,
+ion-header ion-toolbar:last-child {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+ion-content {
+  --ion-background-color: #4786ef;
+  color: #094a79;
+}
+
+.header {
+  --background: linear-gradient(
+    180deg,
+    rgba(26, 70, 157, 1) 10%,
+    rgba(186, 243, 255, 1) 100%
+  );
+  --min-height: 300px;
+  --position: relative;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --border-color: rgb(77, 134, 163);
+}
+
+.center {
+  --text-align: center;
+  --align-items: center;
+}
+
+.dot {
+  --background: #ff7a59;
+
+  --display: flex;
+  --align-items: center;
+  --text-align: center;
+}
+
+.photo {
+  --font-size: 124px;
+}

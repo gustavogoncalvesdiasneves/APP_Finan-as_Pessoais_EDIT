@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="header">
+    <div align="center">
+      <ion-icon
+        style="font-size: 124px;"
+        slot="icon-only"
+        name="person-circle"
+      ></ion-icon>
+      <strong style="font-size:21px"
+        ><ion-input placeholder="SEU NOME/YOUR NAME"></ion-input
+      ></strong>
+      <ion-title class="center"> Seja Bem Vindo Ao APP !! </ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div align="center" style="padding-top:20px">
+    <strong style="font-size:20px;color:white;"
+      >Finanças Pessoais | Aplicativo
+    </strong>
+  </div>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button
+      (click)="showAdd()"
+      color="primary"
+      class="animate__animated animate__pulse"
+    >
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="start">
+    <ion-fab-button
+      (click)="ScheduleBasic()"
+      color="primary"
+      class="animate__animated animate__pulse"
+    >
+      <ion-icon name="create"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
